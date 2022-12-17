@@ -30,60 +30,11 @@
 			<link rel="stylesheet" href="css/main.css">
 		</head>
 		<body>	
-			  <header id="header" id="home">
-		  		<div class="header-top">
-		  			<div class="container">
-				  		<div class="row">
-				  			<div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
-				  				<a href="tel:+953 012 3654 896">+953 012 3654 896</a>
-				  				<a href="mailto:support@colorlib.com">support@colorlib.com</a>					  
-				  			</div>
-				  			<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
-				  				<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-									<li><a href="#"><i class="fa fa-behance"></i></a></li>
-				  				</ul>			
-				  			</div>
-				  		</div>			  					
-		  			</div>
-				</div>
-			    <div class="container main-menu">
-			    	<div class="row align-items-center justify-content-between d-flex">
-				      <div id="logo">
-				        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
-				      </div>
-				      <nav id="nav-menu-container">
-				        <ul class="nav-menu">
-				          <li class="menu-active"><a href="index.html">Home</a></li>
-				          <li><a href="about.html">About</a></li>
-				          <li><a href="services.html">Services</a></li>
-				          <li><a href="projects.html">Projects</a></li>
-				          <li class="menu-has-children"><a href="">Blog</a>
-				            <ul>
-				              <li><a href="blog-home.html">Blog Home</a></li>
-				              <li><a href="blog-single.html">Blog Single</a></li>
-				            </ul>
-				          </li>	
-				          <li class="menu-has-children"><a href="">Pages</a>
-				            <ul>
-			              		<li><a href="project-details.html">Project Details</a></li>		
-				                <li><a href="elements.html">Elements</a></li>
-						          <li class="menu-has-children"><a href="">Level 2 </a>
-						            <ul>
-						              <li><a href="#">Item One</a></li>
-						              <li><a href="#">Item Two</a></li>
-						            </ul>
-						          </li>					                		
-				            </ul>
-				          </li>					          					          		          
-				          <li><a href="contact.html">Contact</a></li>
-				        </ul>
-				      </nav><!-- #nav-menu-container -->		    		
-			    	</div>
-			    </div>
-			  </header><!-- #header -->
+			  <!-- start header  -->
+				<?php
+					include "header.php";
+				?>
+			  <!-- end header  -->
 
 			<!-- start banner Area -->
 			<section class="banner-area relative" id="home">
@@ -92,13 +43,16 @@
 					<div class="row fullscreen d-flex justify-content-center align-items-center">
 						<div class="banner-content col-lg-9 col-md-12 justify-content-center ">
 							<h1>
-								Precise concept design <br>
-								for stylish living			
+								STMIK MPB PAGUYANGAN BREBES <br>	
 							</h1>
+								<h3> 
+									<p class="text-white mx-auto"> 
+										Sekolah Tinggi Manajemen Ilmu Komputer
+
+									</p>
+								</h3>
 							<p class="text-white mx-auto">
-								If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each. You may be saying to yourself.
-							</p>
-							<a href="#" class="primary-btn header-btn text-uppercase mt-10">Get Started</a>
+							<a href="#" class="primary-btn header-btn text-uppercase mt-10"> Let's Join Us</a>
 						</div>											
 					</div>
 				</div>
@@ -110,9 +64,16 @@
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-md-12 pb-50 header-text text-center">
-							<h1 class="mb-10">What we offer to our clients</h1>
+							<h1 class="mb-10">Sejarah Stmik MPB Paguyangan Brebes</h1>
 							<p>
-								Who are in extremely love with eco friendly system..
+							STMIK Muhammadiyah Paguyangan Brebes (STMIK-MPB) merupakan perguruan tinggi Muhammadiyah pertama di kabupaten Brebes yang
+didirikan berdasarkan surat keputusan Nomor 01/KEP/IV/0/B/2014 tanggal 27 sya’ban 1435 H, bertepatan tanggal 25 Juni 2014M,
+Pimpinan Cabang Muhammadiyah Paguyangan sebagai rintisan awal pendirian Sekolah Tinggi Manajemen Informatika dan komputer
+Muhammadiyah Paguyangan Brebes, dan secara resmi diakui negara berdasarkan Surat Keputusan Menteri Riset, Teknologi,
+dan Pendidikan Tinggi Republik Indonesia nomor 230/KPT/I/2017 yang ditetapkan pada tanggal 28 April 2017 tentang izin
+pendirian atau operasional Sekolah Tinggi Manajemen Informatika dan Komputer (STMIK) Muhammadiyah Paguyangan Brebes
+berkedudukan di kecamatan Paguyangan kabupaten Brebes, Provinsi Jawa Tengah. Dengan2 (dua) Program Studi dengan jenjang
+Strata 1 (Satu) yaitu, Teknik Informatika dan Sistem Informasi.
 							</p>
 						</div>
 					</div>						
